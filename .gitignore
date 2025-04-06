@@ -1,0 +1,138 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# General Git ignores
+*.log
+*.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Build artifacts
+build/
+.dart_tool/
+*.a
+*.out
+*.o
+
+# Flutter specific ignores
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.framework
+/ios/Flutter/flutter_assets/
+/ios/Flutter/.last_build_id
+/ios/Flutter/Generated.xcconfig
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Runner.xcworkspace/xcuserdata/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcodeproj/xcuserdata/
+/android/app/build/
+/android/.gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/key.properties
+*.apk
+*.aab
+*.jar
+
+# Dart specific ignores
+*.dart_tool/
+*.packages
+pubspec.lock
+
+# Firebase specific ignores
+.firebase/
+firebase-debug.log
+database-debug.log
+firestore-debug.log
+storage-debug.log
+*.firebase.*.log # General pattern for firebase logs
+
+# Firebase Cloud Functions specific ignores
+functions/node_modules/
+functions/.runtimeconfig.json
+functions/lib/ # If using TypeScript and compiling to JavaScript in lib
+functions/coverage/
+functions/.env
+functions/.env.*
+functions/package-lock.json # Depending on team policy, you might commit this
+functions/yarn.lock # Depending on team policy, you might commit this
+
+# Sensitive information - ensure these are never committed
+*.env
+*.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.p12

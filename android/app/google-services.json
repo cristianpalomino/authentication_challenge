@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979113434540",
+    "project_id": "sapo-challenges",
+    "storage_bucket": "sapo-challenges.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979113434540:android:371aefe0685a5cb32f6e09",
+        "android_client_info": {
+          "package_name": "com.example.authentication_challenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfSGU6-VsFzfJUmgMgAenoTGK_uygZRtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

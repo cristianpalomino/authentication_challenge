@@ -1,0 +1,54 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sapo-challenges",
+          "appId": "1:979113434540:android:371aefe0685a5cb32f6e09",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "sapo-challenges",
+          "appId": "1:979113434540:ios:6f24ebd62d893ecb2f6e09",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "sapo-challenges",
+          "appId": "1:979113434540:ios:6f24ebd62d893ecb2f6e09",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sapo-challenges",
+          "configurations": {
+            "android": "1:979113434540:android:371aefe0685a5cb32f6e09",
+            "ios": "1:979113434540:ios:6f24ebd62d893ecb2f6e09",
+            "macos": "1:979113434540:ios:6f24ebd62d893ecb2f6e09",
+            "web": "1:979113434540:web:98a55dcdba096a192f6e09",
+            "windows": "1:979113434540:web:4a218ce7a038f3a12f6e09"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
